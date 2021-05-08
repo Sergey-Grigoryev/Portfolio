@@ -1,3 +1,29 @@
 * {
   margin: 0px;
 }
+
+body {
+  background-color: gray;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 20%;
+  padding: 5px;
+  background-color: darkred;
+}
+
+header h1,
+header p {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5vh;
+}
+
+header img {
+  display: flex;
+  align-self: center;
+  width: 50%;
+}
