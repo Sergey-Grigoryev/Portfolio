@@ -4,26 +4,114 @@
 
 body {
   background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   width: 20%;
-  padding: 5px;
-  background-color: darkred;
 }
 
-header h1,
-header p {
+header div {
   display: flex;
-  justify-content: center;
-  font-size: 2.5vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+  background-color: rgb(80, 80, 80);
 }
 
 header img {
   display: flex;
   align-self: center;
   width: 50%;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  color: whitesmoke;
+}
+
+header h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5vh;
+  color: whitesmoke;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  background-color: hsla(0, 0%, 0%, 0.288);
+  padding: 5px;
+  margin-top: 5vh;
+}
+
+header nav a {
+  display: flex;
+  color: whitesmoke;
+  margin: 20px;
+  align-items: center;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding-top: 150px;
+  flex-direction: column;
+}
+
+.works div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10vw;
+  margin-left: 5vw;
+}
+
+.work {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15vh;
+}
+
+/* .work div h3,
+.work div p {
+  display: flex;
+} */
+
+.work1 img {
+  width: 15vw;
+  margin-right: 10vw;
+  margin-left: 15vw;
+  transition: ease-in-out;
+}
+
+.work1 img:hover {
+  width: 30vw;
+  margin-right: 5vw;
+  margin-left: 0;
+  transition: ease-in-out;
+}
+
+footer {
+  display: flex;
+  margin: 10px 0 10px 0;
+
+  width: 100%;
+  justify-content: center;
+}
+
+footer p {
+  display: flex;
+}
+
+footer p a {
+  margin: 0 10px 0 10px;
+}
+
+@media screen and (max-width: 760px) {
 }
