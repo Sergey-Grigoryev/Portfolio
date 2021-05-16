@@ -1,5 +1,5 @@
 :root {
-  --shadow: -3px -3px 5px rgb(50, 50, 50);
+  --shadow: -5px -5px 10px rgb(90, 90, 90);
   --mainBG: rgb(150, 150, 150)
 }
 
@@ -34,8 +34,9 @@ header div img {
   display: flex;
   align-self: center;
   width: 50%;
+  margin-top: 7px;
   border-radius: 10px;
-  box-shadow: var(--shadow);
+  box-shadow: -5px -5px 10px rgb( 50, 50, 50);
 }
 
 header h1 {
@@ -60,7 +61,7 @@ header nav {
   padding: 5px;
   margin-top: 5vh;
   border-radius: 10px;
-  box-shadow: var(--shadow);
+  box-shadow: -5px -5px 10px rgb( 50, 50, 50);
   position: sticky;
   top: 0;
 }
@@ -108,7 +109,10 @@ header nav a {
 .work h2 {
   margin-bottom: 5px;
   margin-left: -20px;
+  color: rgb(90, 90, 130);
+  text-shadow: -3px -3px 5px #b6b6b6;
 }
+
 .work h3 {
   margin-top: 15px;
   margin-bottom: 5px;
