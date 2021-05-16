@@ -5,3 +5,6 @@
 ## Technologies used:
 * html
 * css
+
+## Screenshot of site:
+![alt text](./assets/Images/Screenshot.png)
