@@ -1,6 +1,14 @@
+:root {
+  --shadow: -3px -3px 5px rgb(50, 50, 50);
+  --mainBG: rgb(150, 150, 150)
+}
+
 * {
   margin: 0px;
+  color: whitesmoke;
 }
+
+
 
 body {
   background-color: gray;
@@ -19,19 +27,22 @@ header div {
   flex-wrap: wrap;
   padding: 5px;
   background-color: rgb(80, 80, 80);
+  height: 100%;
+  position: sticky;
 }
 
-header img {
+header div img {
   display: flex;
   align-self: center;
   width: 50%;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
 }
 
 header h1 {
   display: flex;
   justify-content: center;
   font-size: 3vh;
-  color: whitesmoke;
 }
 
 header h2 {
@@ -47,71 +58,94 @@ header nav {
   background-color: hsla(0, 0%, 0%, 0.288);
   padding: 5px;
   margin-top: 5vh;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
 }
 
 header nav a {
   display: flex;
   color: whitesmoke;
   margin: 20px;
-  align-items: center;
+  justify-content: flex-end;
 }
+
+/* .aboutMe {
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
 
 .works {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  padding-top: 150px;
+  padding-top: 20px;
   flex-direction: column;
 }
 
-.works div div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 10vw;
+.works div, .aboutMe, footer {
+  margin-right: 5vw;
   margin-left: 5vw;
+  margin-top: 5vh;
+  background-color: var(--mainBG);
+  margin-bottom: 10vh;
+}
+
+.works div {
+  flex-direction: row;
 }
 
 .work {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 15vh;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+.
+
+.work h2 {
+  margin-bottom: 5px;
+  margin-left: -20px;
+}
+.work h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
-/* .work div h3,
-.work div p {
-  display: flex;
-} */
+.projectLinks {
+  align-self: flex-end;
+}
 
-.work1 img {
+.projectImg {
   width: 15vw;
-  margin-right: 10vw;
-  margin-left: 15vw;
-  transition: ease-in-out;
-}
+  margin: 5vh;
+  transition: width .25s;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  }
 
-.work1 img:hover {
+.projectImg:hover {
   width: 30vw;
-  margin-right: 5vw;
   margin-left: 0;
-  transition: ease-in-out;
 }
 
-footer {
+/* footer {
   display: flex;
-  margin: 10px 0 10px 0;
-
+  margin: 20px 0 10px 0;
   width: 100%;
   justify-content: center;
-}
+} */
 
-footer p {
+/* footer p {
   display: flex;
 }
 
 footer p a {
   margin: 0 10px 0 10px;
-}
+} */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 990px) {
+  header h1, header h2 {
+    text-align: center;
+  }
+
 }
