@@ -1,14 +1,12 @@
 :root {
   --shadow: -5px -5px 10px rgb(90, 90, 90);
-  --mainBG: rgb(150, 150, 150)
+  --mainBG: rgb(150, 150, 150);
 }
 
 * {
   margin: 0px;
   color: whitesmoke;
 }
-
-
 
 body {
   background-color: gray;
@@ -36,7 +34,7 @@ header div img {
   width: 50%;
   margin-top: 7px;
   border-radius: 10px;
-  box-shadow: -5px -5px 10px rgb( 50, 50, 50);
+  box-shadow: -5px -5px 10px rgb(50, 50, 50);
 }
 
 header h1 {
@@ -61,7 +59,7 @@ header nav {
   padding: 5px;
   margin-top: 5vh;
   border-radius: 10px;
-  box-shadow: -5px -5px 10px rgb( 50, 50, 50);
+  box-shadow: -5px -5px 10px rgb(50, 50, 50);
   position: sticky;
   top: 0;
 }
@@ -88,7 +86,9 @@ header nav a {
   flex-direction: column;
 }
 
-.works div, .aboutMe, footer {
+.works div,
+.aboutMe,
+footer {
   margin-right: 5vw;
   margin-left: 5vw;
   margin-top: 5vh;
@@ -110,7 +110,7 @@ header nav a {
 .work h2 {
   margin-bottom: 5px;
   margin-left: -20px;
-  color: rgb(45, 45, 107);
+  color: rgb(31, 111, 231);
   text-shadow: -3px -3px 5px #b6b6b6;
   font-size: xx-large;
 }
@@ -131,10 +131,10 @@ header nav a {
 .projectImg {
   width: 15vw;
   margin: 5vh;
-  transition: width .25s;
+  transition: width 0.25s;
   border-radius: 10px;
   box-shadow: var(--shadow);
-  }
+}
 
 .projectImg:hover {
   width: 30vw;
