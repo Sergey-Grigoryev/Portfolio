@@ -141,6 +141,14 @@ footer {
   margin-left: 0;
 }
 
+.row {
+  display: flex;
+}
+
+.works .column {
+  margin: 0 0 0 0;
+}
+
 /* @media screen and (max-width: 720px) {
   header, header div, header div nav {
     flex-direction: row;
