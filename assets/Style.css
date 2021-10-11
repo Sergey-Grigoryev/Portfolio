@@ -12,6 +12,7 @@ body {
   background-color: gray;
   display: flex;
   flex-wrap: wrap;
+  font-size: large;
 }
 
 header {
