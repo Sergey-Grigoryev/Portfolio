@@ -109,16 +109,18 @@ footer {
 }
 
 .work h2 {
-  margin-bottom: 5px;
-  margin-left: -20px;
-  color: rgb(31, 111, 231);
+  /* margin-bottom: 5px; */
+  margin-left: -10px;
+  color: rgb(255, 255, 255);
   text-shadow: -3px -3px 5px #b6b6b6;
-  font-size: xx-large;
+  font-size: large;
 }
 
 .work h3 {
   margin-top: 15px;
+  margin-left: -20px;
   margin-bottom: 5px;
+  font-size: x-large;
 }
 
 .work a {
